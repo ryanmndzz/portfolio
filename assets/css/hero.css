@@ -26,7 +26,13 @@
 
 .hero_subtitle {
     margin-top: -5rem;
-    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+}
+
+.hero_description {
+    font-weight: 800;
+    color: rgb(115, 120, 185);
 }
 
 .social_icons {
@@ -40,7 +46,7 @@
 .custom-button {
     /* Remove the margin-right property to avoid unnecessary spacing between icons */
     position: relative;
-    background-color: #383bff;
+    background-color: rgb(115, 120, 185);
     border: none;
     border-radius: 50%;
     height: 40px; /* Increase the height for better visibility and spacing */

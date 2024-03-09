@@ -15,11 +15,12 @@ li, h1, a, h2, p, button {
 }
 
 header {
-    background-color: #00003f;
+    background-color: rgb(115, 120, 185);
     border-bottom: 1px solid white;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    height: 60px;
 }
 
 .logo {
@@ -27,8 +28,12 @@ header {
     margin-left: 8rem;
 }
 
+.logo h1 {
+    color: #ffffff;
+}
+
 .logo h1:hover {
-    color: blue;
+    color: #18006d;
     transition: color 1s ease-in-out;
 }
 
@@ -46,21 +51,13 @@ header {
 .nav_menu li a {
     transition: all 0.3s ease 0s;
     font-weight: bold;
+    color: #ffffff;
 }
 
 .nav_menu li a:hover {
-    color: blue;
+    color: #18006d;
     padding-bottom: 3px;
-    border-bottom: 2px solid blue;
-}
-
-button {
-    padding: 9px 25px;
-    background-color: blue;
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
+    border-bottom: 2px solid #18006d;
 }
 
 button:hover {
@@ -83,7 +80,7 @@ p {
     z-index: 99;
     border: none;
     outline: none;
-    background-color: blue;
+    background-color: rgb(115, 120, 185);
     color: white;
     cursor: pointer;
     padding: 15px;
@@ -91,7 +88,7 @@ p {
 }
 
 #scrollBtn:hover {
-    background-color: rgb(62, 62, 255);
+    background-color: #18006d;
 }
 
 /* width */
