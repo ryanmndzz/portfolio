@@ -75,12 +75,6 @@ p {
     color: white;
 }
 
-#about, #skills, #contact {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 40rem;
-}
-
 #scrollBtn {
     display: none;
     position: fixed;
