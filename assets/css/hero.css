@@ -1,0 +1,76 @@
+#hero {
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero_particles {
+    width: 100%;
+}
+
+.hero_container {
+    text-align: center; 
+}
+
+.hero_super {
+    display: flex;
+    position: absolute;
+    align-items: center;
+}
+
+.hero_title {
+    font-size: 120px;
+    font-family: 'Tanker', sans-serif;
+}
+
+.hero_subtitle {
+    margin-top: -5rem;
+    font-weight: bold;
+}
+
+.social_icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center the social icons horizontally */
+    margin-top: 20px; /* Add margin at the top for spacing */
+}
+
+.custom-button {
+    /* Remove the margin-right property to avoid unnecessary spacing between icons */
+    position: relative;
+    background-color: #383bff;
+    border: none;
+    border-radius: 50%;
+    height: 40px; /* Increase the height for better visibility and spacing */
+    width: 40px; /* Increase the width for better visibility and spacing */
+    margin: 0 10px; /* Add margin on both sides of the icon for spacing */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px; /* Adjust the font size for better visibility */
+    overflow: hidden;
+    transition: color 0.3s;
+}
+
+.custom-button::before {
+    content: "";
+    position: absolute;
+    left: -100%;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #18006d;
+    transition: left 1s;
+}
+
+.custom-button:hover::before {
+    left: 100%;
+}
+
+.custom-button:hover i {
+    color: #ff0000;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/hero.css">
+    <link rel="stylesheet" href="assets/css/about.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
+    <link rel="stylesheet" href="assets/css/skills.css">
+    <link rel="stylesheet" href="assets/css/astronaut.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://api.fontshare.com/v2/css?f[]=tanker@400&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
+</head>
+
+<body>
+
+
+
+    <header id="header">
+        <a class="logo" href=""><h1>ryan</h1></a>
+        <nav>
+            <ul class="nav_menu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero_super">
+            <div class="hero_container">
+                <h1 class="hero_title">Hi, I'm Ryan Mendez</h1>
+                <h2 class="hero_subtitle">Computer Technician</h2>
+                <p class="hero_description">A second-year student at CITE Technical Institute, taking up <br>the Diploma of Computer Engineering program.</p>
+                <ul class="social_icons">
+                    <li><a href="https://www.facebook.com/ryanmndzz" class="custom-button"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="https://www.instagram.com/your_instagram_username" class="custom-button"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://www.twitter.com/your_twitter_username" class="custom-button"><i class="fab fa-twitter"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="hero_particles"></div>
+    </section>
+
+
+    <section id="about">
+        <h1 class="about_title">About</h1>
+        <div class="about_container-all">
+            <div class="about_container">
+                <p>My name is James Ryan Mendezasdasdasuydhauisyduisahyduiash <br> ajsdhjasdh</p>
+                <a class="resume_button" href="#"><button>Resume</button></a>
+            </div>
+            <img class="about_profile" src="assets/img/profile.jpg" alt="">
+        </div>
+    </section>
+
+    <section id="skills">
+        <h1 class="skills_title">Skills</h1>
+        <div class="skills_container">
+            <h2>Hardware</h2>
+            <h2>Haha</h2>
+            <h2>Asdasd</h2>
+        </div>
+    </section>
+
+    <button id="scrollBtn" onclick="scrollToTop()"><i class="fas fa-arrow-up"></i></button>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+
+    <!-- scroll up -->
+    <script>
+        window.onscroll = function() { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("scrollBtn").style.display = "block";
+            } else {
+                document.getElementById("scrollBtn").style.display = "none";
+            }
+        }
+
+        function scrollToTop() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+    
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="assets/js/particle.js"></script>
+  
+</body>
+
+</html>

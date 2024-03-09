@@ -1,0 +1,17 @@
+#skills {
+    background-color: #dfdfdf;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin-top: -2.6rem;
+}
+
+.skills_container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.skills_title {
+    font-size: 50px;
+    font-family: 'Tanker', sans-serif;
+}
