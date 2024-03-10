@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #about {
     display: block;
     padding-top: 5px;
@@ -48,33 +47,4 @@ button:hover {
     background-color: #18006d;
     transform: translateY(-5px);
     transition: transform 0.3s ease-out;
-=======
-#about {
-    display: block;
-    padding-top: 5px;
-    padding-bottom: 25rem !important;
-    background-color: #00003f;
-    text-align: center;
-}
-
-.about_title {
-    font-size: 50px;
-    font-family: 'Tanker', sans-serif;
-}
-
-.about_container {
-    display: inline-block;
-    text-align: left;
-}
-
-.about_container-all {
-    justify-content: space-evenly;
-    display: flex;
-}
-
-.about_profile {
-    border-radius: 50%;
-    height: 20rem;
-    width: 20rem;
->>>>>>> 968964f1d654ff9ecffdd9b12f02c75d23424a1d
 }
