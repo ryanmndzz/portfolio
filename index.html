@@ -23,7 +23,7 @@
         <a class="logo" href=""><h1>ryan</h1></a>
         <nav>
             <ul class="nav_menu">
-                <li><a href="#header">Home</a></li>
+                <li><a href="#hero">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
             </ul>
@@ -34,11 +34,11 @@
         <div class="hero_super">
             <div class="hero_container">
                 <h1 class="hero_title">Hi, I'm Ryan Mendez</h1>
-                <h2 class="hero_subtitle">Computer Technician</h2>
+                <h2 class="hero_subtitle">Computer Technician | Web Developer</h2>
                 <p class="hero_description">A second-year student at CITE Technical Institute, taking up <br>the Diploma of Computer Engineering program.</p>
                 <ul class="social_icons">
                     <li><a href="https://www.facebook.com/ryanmndzz" class="custom-button"><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href="https://www.instagram.com/your_instagram_username" class="custom-button"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://www.instagram.com/ryanmndzz?igsh=aTl3azFuMWQxa3A%3D&utm_source=qr" class="custom-button"><i class="fab fa-instagram"></i></a></li>
                     <li><a href="https://www.twitter.com/your_twitter_username" class="custom-button"><i class="fab fa-twitter"></i></a></li>
                 </ul>
             </div>
@@ -61,13 +61,55 @@
     </section>
 
     <section id="skills">
-        <h1 class="skills_title">Skills</h1>
-        <div class="skills_container">
-            <h2>Hardware</h2>
-            <h2>Haha</h2>
-            <h2>Asdasd</h2>
+        <div class="skills_super">
+            <h1 class="skills_title">Skills</h1>
+            <div class="skills_container">
+                <div class="skill_category" id="hardware">
+                    <h2>Hardware</h2>
+                    <div class="progress-bar" style="--progress: 90%;"></div>
+                </div>
+                <div class="skill_category" id="coding">
+                    <h2>Coding</h2>
+                    <div class="progress-bar" style="--progress: 80%;"></div>
+                    <div class="language-list">
+                        <ul>
+                            <li>
+                                <span>Java:</span>
+                                <div class="progress-bar" style="--progress: 70%;"></div>
+                            </li>
+                            <li>
+                                <span>HTML:</span>
+                                <div class="progress-bar" style="--progress: 80%;"></div>
+                            </li>
+                            <li>
+                                <span>CSS:</span>
+                                <div class="progress-bar" style="--progress: 75%;"></div>
+                            </li>
+                            <li>
+                                <span>JavaScript:</span>
+                                <div class="progress-bar" style="--progress: 50%;"></div>
+                            </li>
+                            <li>
+                                <span>C:</span>
+                                <div class="progress-bar" style="--progress: 75%;"></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="skill_category" id="design">
+                    <h2>Design</h2>
+                    <div class="progress-bar" style="--progress: 90%;"></div>
+                </div>
+            </div>
         </div>
     </section>
+
+    <script>
+        document.getElementById('coding').addEventListener('click', function () {
+            var languageList = document.querySelector('.language-list');
+            languageList.style.display = (languageList.style.display === 'block') ? 'none' : 'block';
+        });
+    </script>
 
     <button id="scrollBtn" onclick="scrollToTop()"><i class="fas fa-arrow-up"></i></button>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
@@ -92,5 +134,5 @@
     
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="assets/js/particle.js"></script>
-  
+    
 </body>

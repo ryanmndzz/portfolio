@@ -1,12 +1,12 @@
 #hero {
     display: flex;
-    background-color: black;
+    background-color: rgb(211, 211, 211);
     align-items: center;
     justify-content: center;
 }
 
 #hero_particles {
-    width: 100%;
+    width: 100rem;
 }
 
 .hero_container {
@@ -14,17 +14,20 @@
 }
 
 .hero_super {
-    display: flex;
     position: absolute;
+    display: flex;
+    margin-top: -8rem;
     align-items: center;
 }
 
 .hero_title {
     font-size: 120px;
+    color: #18006d;
     font-family: 'Tanker', sans-serif;
 }
 
 .hero_subtitle {
+    color: #18006d !important;
     margin-top: -7rem;
     color: rgb(255, 255, 255);
     font-weight: 900;
@@ -32,7 +35,7 @@
 
 .hero_description {
     font-weight: 800;
-    color: rgb(115, 120, 185);
+    color: #7378b9;
 }
 
 .social_icons {
@@ -49,8 +52,8 @@
     background-color: rgb(115, 120, 185);
     border: none;
     border-radius: 50%;
-    height: 40px; /* Increase the height for better visibility and spacing */
-    width: 40px; /* Increase the width for better visibility and spacing */
+    height: 50px; /* Increase the height for better visibility and spacing */
+    width: 50px; /* Increase the width for better visibility and spacing */
     margin: 0 10px; /* Add margin on both sides of the icon for spacing */
     display: flex;
     align-items: center;
@@ -60,23 +63,4 @@
     font-size: 20px; /* Adjust the font size for better visibility */
     overflow: hidden;
     transition: color 0.3s;
-}
-
-.custom-button::before {
-    content: "";
-    position: absolute;
-    left: -100%;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #18006d;
-    transition: left 1s;
-}
-
-.custom-button:hover::before {
-    left: 100%;
-}
-
-.custom-button:hover i {
-    color: #ff0000;
 }

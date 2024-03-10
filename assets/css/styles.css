@@ -15,13 +15,17 @@ li, h1, a, h2, p, button {
 }
 
 header {
+    position: sticky;
+    top: 0;
     background-color: rgb(115, 120, 185);
     border-bottom: 1px solid white;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     height: 60px;
+    z-index: 1000; /* Ensures the header is on top of other elements */
 }
+
 
 .logo {
     margin-right: auto;
@@ -65,10 +69,6 @@ button:hover {
 }
 
 h2 {
-    color: white;
-}
-
-p {
     color: white;
 }
 

@@ -1,10 +1,10 @@
 #skills {
-    background-color: #dfdfdf;
+    background-color: #ffffff;
     display: block;
     justify-content: center;
     text-align: center;
     margin-top: -2.6rem;
-    padding-bottom: 30rem;
+    padding-bottom: 20rem;
 }
 
 .skills_container {
@@ -12,7 +12,58 @@
     justify-content: space-evenly;
 }
 
+.skill_category {
+    text-align: center;
+    cursor: pointer;
+}
+
 .skills_title {
     font-size: 50px;
     font-family: 'Tanker', sans-serif;
+    color: #18006d;
+}
+
+.skills_super {
+    padding-top: 2.5rem;
+}
+
+.skills_container h2 {
+    color: #7378b9;
+    font-weight: 900;
+}
+
+.progress-bar {
+    width: 100px;
+    height: 10px;
+    background-color: #ddd;
+    position: relative;
+    margin-top: 5px;
+}
+
+.progress-bar::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: var(--progress);
+    background-color: #7378b9;
+}
+
+.language-list {
+    display: none;
+}
+
+.language-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.language-list li {
+    padding: 5px;
+    color: #7378b9;
+}
+
+.language-list li:hover {
+    background-color: #f0f0f0;
 }

@@ -1,6 +1,6 @@
 #about {
     display: block;
-    padding-top: 5px;
+    padding-top: 3rem;
     padding-bottom: 25rem !important;
     background-color: #00003f;
     text-align: center;
@@ -17,7 +17,7 @@
 }
 
 .about_container p {
-    color: rgb(115, 120, 185);
+    color: #7378b9;
     font-weight: 800;
 }
 
@@ -42,7 +42,8 @@ button {
     border: none;
 }
 
-button:hover {
+button:hover,
+.custom-button:hover {
     cursor: pointer;
     background-color: #18006d;
     transform: translateY(-5px);
