@@ -87,10 +87,6 @@ h2 {
     border-radius: 50%;
 }
 
-#scrollBtn:hover {
-    background-color: #18006d;
-}
-
 /* width */
 ::-webkit-scrollbar {
     width: 10px;
@@ -104,13 +100,13 @@ h2 {
    
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: rgb(5, 4, 61); 
+    background: rgb(115, 120, 185); 
     border-radius: 10px;
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: rgb(12, 10, 148)
+    background: #18006d;
   }
 
 
