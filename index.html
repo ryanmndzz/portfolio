@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="assets/css/astronaut.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link href="https://api.fontshare.com/v2/css?f[]=tanker@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/contact.css">
     <title>Portfolio</title>
 </head>
 
@@ -26,6 +27,7 @@
                 <li><a href="#hero">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -61,56 +63,44 @@
     </section>
 
     <section id="skills">
-        <div class="skills_super">
-            <h1 class="skills_title">Skills</h1>
-            <div class="skills_container">
-                <div class="skill_category" id="hardware">
-                    <h2>Hardware</h2>
-                    <div class="progress-bar" style="--progress: 90%;"></div>
+        <h1 class="skills_title">Skills</h1>
+        <h2 class="paragraph">As a beginner, I'm currently learning both frontend and backend languages. On the frontend, I'm exploring Java for creating dynamic web applications, alongside HTML and CSS for crafting layouts and styling. Meanwhile, I'm delving into backend development with Java, C, and JavaScript, understanding how to build server-side functionalities and manage data effectively. Embracing this learning journey, I aim to become proficient in both frontend and backend development, ultimately creating compelling and functional web experiences.</h2>
+        <div class="skils_container">
+            <div class="frontend_container">
+                <h2 class="sub_skills">Frontend</h2>
+                <div>
+                    <img class="skills_img" src="assets/img/html.png" alt="">
+                    <img class="skills_img" src="assets/img/java.png" alt="">
+                    <img class="skills_img" src="assets/img/css-3.png" alt="">
                 </div>
-                <div class="skill_category" id="coding">
-                    <h2>Coding</h2>
-                    <div class="progress-bar" style="--progress: 80%;"></div>
-                    <div class="language-list">
-                        <ul>
-                            <li>
-                                <span>Java</span>
-                                <div class="progress-bar" style="--progress: 70%;"></div>
-                            </li>
-                            <li>
-                                <span>HTML</span>
-                                <div class="progress-bar" style="--progress: 80%;"></div>
-                            </li>
-                            <li>
-                                <span>CSS</span>
-                                <div class="progress-bar" style="--progress: 75%;"></div>
-                            </li>
-                            <li>
-                                <span>JavaScript</span>
-                                <div class="progress-bar" style="--progress: 50%;"></div>
-                            </li>
-                            <li>
-                                <span>C</span>
-                                <div class="progress-bar" style="--progress: 75%;"></div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="skill_category" id="design">
-                    <h2>Design</h2>
-                    <div class="progress-bar" style="--progress: 90%;"></div>
+            </div>
+            <div class="backend_container">
+                <h2 class="sub_skills">Backend</h2>
+                <div>
+                    <img class="skills_img" src="assets/img/java-script.png" alt="">
+                    <img class="skills_img" src="assets/img/java.png" alt="">
+                    <img class="skills_img" src="assets/img/c-.png" alt="">
                 </div>
             </div>
         </div>
     </section>
 
-    <script>
-        document.getElementById('coding').addEventListener('click', function () {
-            var languageList = document.querySelector('.language-list');
-            languageList.style.display = (languageList.style.display === 'block') ? 'none' : 'block';
-        });
-    </script>
-
+    <section id="contact">
+        <h1 class="contact_title">Contact Me</h1>
+        <div class="contact__container">
+            <input type="text" placeholder="Your Name">
+            <input type="text" placeholder="Your Email">
+            <input class="message" type="text" placeholder="Message">
+            <a href=""><button>Submit</button></a>
+            <p>or</p>
+            <div class="icon_container">
+                <a class="custom-button" href=""><i class="fab fa-facebook-f"></i></a>
+                <a class="custom-button" href=""><i class="fab fa-instagram"></i></a>
+                <a class="custom-button" href=""><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+    
     <button id="scrollBtn" onclick="scrollToTop()"><i class="fas fa-arrow-up"></i></button>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
 
