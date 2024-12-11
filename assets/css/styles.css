@@ -113,3 +113,18 @@ h2 {
   .logo h1 {
     font-weight: 800;
   }
+
+
+  #das {
+    text-align: center;
+    padding-bottom: 10rem;
+    border: 1px solid white;
+    background-color: white;
+}
+
+.excelsheet {
+    height: 50rem;
+    width: 95%;
+    margin-top: 2rem;
+    border: 3px solid black;
+}
